@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:670px;
+    height: 670px;
+    margin: auto;
+    position:absolute; 
+    top:2%;
+    left:30%;
+   
+    
+
+}
+.banner {
+ position: absolute;
+ top:0;
+ left:0;
+ display: grid;
+ grid-template-columns: repeat(8,1fr);
+ border: 5px solid black;
+ width:610px;
+ height: 610px;
+ 
+}
+.add{
+    width: 75px;
+  height:75px;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
